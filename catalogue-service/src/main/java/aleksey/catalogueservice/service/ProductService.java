@@ -1,6 +1,6 @@
-package aleksey.managerapp.service;
+package aleksey.catalogueservice.service;
 
-import aleksey.managerapp.entity.Product;
+import aleksey.catalogueservice.entity.Product;
 
 import java.util.List;
 import java.util.Optional;
@@ -13,7 +13,7 @@ public interface ProductService {
 
     Optional<Product> findById(Integer productId);
 
-    void productUdate(Integer id, String title, String details);
+    void productUpdate(Integer id, String title, String details);
 
     void remove(Integer id);
 }

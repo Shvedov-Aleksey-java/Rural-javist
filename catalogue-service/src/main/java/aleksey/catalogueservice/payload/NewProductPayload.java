@@ -1,4 +1,4 @@
-package aleksey.managerapp.payload;
+package aleksey.catalogueservice.payload;
 
 import jakarta.validation.constraints.NotNull;
 import jakarta.validation.constraints.Size;

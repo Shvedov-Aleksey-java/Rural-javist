@@ -1,7 +1,7 @@
-package aleksey.managerapp.service;
+package aleksey.catalogueservice.service;
 
-import aleksey.managerapp.entity.Product;
-import aleksey.managerapp.repository.ProductRepository;
+import aleksey.catalogueservice.entity.Product;
+import aleksey.catalogueservice.repository.ProductRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
@@ -31,7 +31,7 @@ public class DefaultProductServiceImpl implements ProductService {
     }
 
     @Override
-    public void productUdate(Integer id, String title, String details) {
+    public void productUpdate(Integer id, String title, String details) {
         repository.productUpdate(id, title, details);
     }
 

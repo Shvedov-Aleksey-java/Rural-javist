@@ -1,7 +1,7 @@
-package aleksey.managerapp.repository;
+package aleksey.catalogueservice.repository;
 
 
-import aleksey.managerapp.entity.Product;
+import aleksey.catalogueservice.entity.Product;
 import org.springframework.stereotype.Repository;
 
 import java.util.*;

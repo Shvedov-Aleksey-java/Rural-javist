@@ -1,6 +1,6 @@
-package aleksey.managerapp.repository;
+package aleksey.catalogueservice.repository;
 
-import aleksey.managerapp.entity.Product;
+import aleksey.catalogueservice.entity.Product;
 
 import java.util.List;
 import java.util.Optional;
